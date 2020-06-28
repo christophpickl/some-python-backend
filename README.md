@@ -2,7 +2,6 @@
 # Todo
 
 * full CRUD + path params + some more HTTP magic
-* DI container
 * ORM (sqlite3)
 * OpenAPI 3
 * custom exception handling
@@ -17,6 +16,7 @@
 * unit tests
 * flask blueprint
 * integration tests
+* DI container
 
 # TechStack
 
