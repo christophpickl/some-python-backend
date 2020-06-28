@@ -1,6 +1,8 @@
 
 # Todo
 
+* mock
+* logging
 * full CRUD + path params + some more HTTP magic
 * ORM (sqlite3)
 * OpenAPI 3
