@@ -8,7 +8,6 @@ pytest = "*"
 
 [packages]
 flask = "*"
-pytest = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,18 +1,22 @@
 
 # Todo
 
-* flask blueprint
+* full CRUD + path params + some more HTTP magic
 * DI container
-* proper layering
-* integration tests
-* ORM
+* ORM (sqlite3)
 * OpenAPI 3
+* custom exception handling
+* mock 3rd party HTTP request
+* database migration
+* authentication
 
 ## Done
 
-* simple HTTP server
+* simple HTTP endpoint
 * package management
 * unit tests
+* flask blueprint
+* integration tests
 
 # TechStack
 
@@ -20,6 +24,7 @@
   * check with `python --version`
 * Pipenv ... Wrapper for Pip
   * Install: `brew install pipenv`
+    * Alternatively: `pip install pipenv`
   * Pip ... Package Nanager
     * check with `pip --version`
     * Install: `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py`
