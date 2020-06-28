@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-
 class BookRepository(ABC):
     @abstractmethod
     def all(self):

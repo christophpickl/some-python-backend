@@ -30,10 +30,12 @@
     * Install: `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py`
 * Flask ... Web Framework
   * Install: `pipenv install flask`
+* dependency-injector
+  * Install: `pipenv install dependency-injector`
 * Pytest ... Test Framework
   * Install: `pipenv install pytest --dev`
 
 # Further Reading
 
 * [Creating APIs with Python+Flask](https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask)
- 
+* [dependency-injector tutorial](https://medium.com/@shivama205/dependency-injection-python-cb2b5f336dce)

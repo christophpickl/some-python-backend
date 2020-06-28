@@ -1,10 +1,11 @@
 from flask import Blueprint, jsonify
 
+from .dependencies import Dependencies
 from .logic import BookService, InMemoryBookRepository
 
 api_bp = Blueprint("api", __name__)
 
-books = BookService(InMemoryBookRepository())
+books = Dependencies.bookService()
 
 
 @api_bp.route("/", methods=['GET'])
