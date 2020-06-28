@@ -5,8 +5,6 @@ from .logic import BookService, InMemoryBookRepository
 
 api_bp = Blueprint("api", __name__)
 
-books = Dependencies.bookService()
-
 
 @api_bp.route("/", methods=['GET'])
 def home():
@@ -15,5 +13,4 @@ def home():
 
 @api_bp.route('/api/v1/books', methods=['GET'])
 def get_books():
-    return jsonify(books.all())
-
+    return jsonify(Dependencies.bookService().all())

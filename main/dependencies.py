@@ -5,5 +5,4 @@ from .logic import InMemoryBookRepository, BookService
 
 class Dependencies(containers.DeclarativeContainer):
     bookRepository = providers.Singleton(InMemoryBookRepository)
-    bookService = providers.Singleton(BookService, repo = bookRepository)
-
+    bookService = providers.Singleton(BookService, repo=bookRepository)

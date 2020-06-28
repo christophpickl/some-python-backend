@@ -12,4 +12,3 @@ def client():
     client = app.test_client()
     yield client
     app_context.pop()
-
