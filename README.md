@@ -1,12 +1,18 @@
 
 # Todo
 
-* unit tests
+* flask blueprint
+* DI container
+* proper layering
 * integration tests
 * ORM
-* proper layering
 * OpenAPI 3
-* DI container
+
+## Done
+
+* simple HTTP server
+* package management
+* unit tests
 
 # TechStack
 
@@ -14,15 +20,13 @@
   * check with `python --version`
 * Pipenv ... Wrapper for Pip
   * Install: `brew install pipenv`
-  * Pip ... Package manager
+  * Pip ... Package Nanager
     * check with `pip --version`
     * Install: `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py`
-* Flask ... Webframework
+* Flask ... Web Framework
   * Install: `pipenv install flask`
-
-# Running
-
-* `python api/api.py` and open browser at http://localhost:5000
+* Pytest ... Test Framework
+  * Install: `pipenv install pytest --dev`
 
 # Further Reading
 
